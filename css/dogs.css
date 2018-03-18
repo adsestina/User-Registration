@@ -1,0 +1,42 @@
+body {
+    background-color: #c2f3ff;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #064405;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #fcd64c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-right: 40px;
+}
+
+.navbar a:hover {
+    background: #fcd64c;
+    color: #064405;
+    -webkit-transition: background 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.dogs {
+    width: 100%;
+    margin-top: 50px;
+}
+
+img {
+    float: left;
+    height: 15em;
+    margin-right: 1%;
+    margin-bottom: 0.5em;
+}
